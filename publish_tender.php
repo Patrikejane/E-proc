@@ -27,6 +27,10 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/simple-sidebar.css" rel="stylesheet">
 
+    <!-- DataTables CSS -->
+    <link href="libraries/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="libraries/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
+
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -122,50 +126,124 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">Publish Tender List</div>
                             <div class="panel-body">
-                                <div class="table-responsive">
-                                <table class="table">
-                                    <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Tender_id</th>
-                                        <th>Tender_Ref_No</th>
-                                        <th>Title</th>
-                                        <th>Category</th>
-                                        <th>View</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Anna</td>
-                                        <td>Pitt</td>
-                                        <td>35</td>
-                                        <td>New York</td>
-                                        <td>USA</td>
-                                    </tr>
-                                    </tbody>
-                                    <tbody>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>jack</td>
-                                        <td>duk</td>
-                                        <td>789</td>
-                                        <td>New York</td>
-                                        <td>USA</td>
-                                    </tr>
-                                    </tbody>
-                                    <tbody>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>saman</td>
-                                        <td>renta</td>
-                                        <td>456</td>
-                                        <td>New York</td>
-                                        <td>srilanka</td>
-                                    </tr>
-                                    </tbody>
+                            <div class="row">
+                            <div class="col-lg-12">
+                            <div class="panel panel-default">
+                            <div class="panel-heading">
+                                DataTables Advanced Tables
+                            </div>
+                            <!-- /.panel-heading -->
+                            <div class="panel-body">
+                            <div class="dataTable_wrapper">
+                            <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                            <thead>
+                            <tr>
+                                <th>Tender_ID</th>
+                                <th>Tiender_Ref</th>
+                                <th>Tender_Title</th>
+                                <th>Category</th>
+                                <th>View</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="odd ">
+                                <td>Trident</td>
+                                <td>Internet Explorer 4.0</td>
+                                <td>Win 95+</td>
+                                <td class="center">4</td>
+                                <td class="center">X</td>
+                            </tr>
+                            <tr >
+                                <td>alph</td>
+                                <td>Internet Explorer 5.0</td>
+                                <td>Win 95+</td>
+                                <td class="center">5</td>
+                                <td class="center">C</td>
+                            </tr>
+                            <tr>
+                                <td>beta</td>
+                                <td>Internet Explorer 5.5</td>
+                                <td>Win 95+</td>
+                                <td class="center">5.5</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr >
+                                <td>gama</td>
+                                <td>Internet Explorer 6</td>
+                                <td>Win 98+</td>
+                                <td class="center">6</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr >
+                                <td>delta</td>
+                                <td>Internet Explorer 7</td>
+                                <td>Win XP SP2+</td>
+                                <td class="center">7</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr >
+                                <td>zigma</td>
+                                <td>AOL browser (AOL desktop)</td>
+                                <td>Win XP</td>
+                                <td class="center">6</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr class="odd ">
+                                <td>Trident</td>
+                                <td>Internet Explorer 4.0</td>
+                                <td>Win 95+</td>
+                                <td class="center">4</td>
+                                <td class="center">X</td>
+                            </tr>
+                            <tr >
+                                <td>alph</td>
+                                <td>Internet Explorer 5.0</td>
+                                <td>Win 95+</td>
+                                <td class="center">5</td>
+                                <td class="center">C</td>
+                            </tr>
+                            <tr>
+                                <td>beta</td>
+                                <td>Internet Explorer 5.5</td>
+                                <td>Win 95+</td>
+                                <td class="center">5.5</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr >
+                                <td>gama</td>
+                                <td>Internet Explorer 6</td>
+                                <td>Win 98+</td>
+                                <td class="center">6</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr >
+                                <td>delta</td>
+                                <td>Internet Explorer 7</td>
+                                <td>Win XP SP2+</td>
+                                <td class="center">7</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr >
+                                <td>zigma</td>
+                                <td>AOL browser (AOL desktop)</td>
+                                <td>Win XP</td>
+                                <td class="center">6</td>
+                                <td class="center">A</td>
+                            </tr>
 
-                                </table>
+
+                            </tbody>
+                            </table>
+                            </div>
+                            <!-- /.table-responsive -->
+
+                            </div>
+                            <!-- /.panel-body -->
+                            </div>
+                            <!-- /.panel -->
+                            </div>
+                            <!-- /.col-lg-12 -->
+                            </div>
                             </div>
                             </div>
                         </div>
@@ -189,11 +267,24 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
 
+<!-- DataTables JavaScript -->
+<script src="libraries/datatables/media/js/jquery.dataTables.min.js"></script>
+<script src="libraries/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+
 <!-- Menu Toggle Script -->
 <script>
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
+    });
+</script>
+
+<!-- table Script -->
+<script>
+    $(document).ready(function() {
+        $('#dataTables-example').DataTable({
+            responsive: true
+        });
     });
 </script>
 
