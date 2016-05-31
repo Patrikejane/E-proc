@@ -62,13 +62,13 @@
             <span class="icon-bar"></span>
         </button>
         <ul class="sidebar-nav">
-            <li>
+            <li style="background-color: #46c3ff; margin-bottom: 1px;">
                 <a href="#">Tender List</a>
             </li>
-            <li>
+            <li style="background-color: #46c3ff; margin-bottom: 1px;">
                 <a href="#">Publish Tender</a>
             </li>
-            <li>
+            <li style="background-color: #46c3ff; margin-bottom: 1px;">
                 <a href="#">Published Tenders</a>
             </li>
         </ul>
@@ -98,7 +98,7 @@
                                         </div>
                                         <div class="form-group">
                                             <button type="button" class="btn btn-info">Clear</button>
-                                            <button type="button" class="btn btn-success">Submit</button>
+                                            <button type="button" class="btn btn-success">Search</button>
 
                                         </div>
                                     </div>
@@ -120,7 +120,7 @@
                         </div>
 
                         <div class="panel panel-default">
-                            <div class="panel-heading">Publish tender List</div>
+                            <div class="panel-heading">Publish Tender List</div>
                             <div class="panel-body">
                                 <div class="table-responsive">
                                 <table class="table">
@@ -169,10 +169,11 @@
                             </div>
                             </div>
                         </div>
-                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+
 
 
                     </div>
+                    <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Full Screen</a>
                 </div>
             </div>
         </div>
